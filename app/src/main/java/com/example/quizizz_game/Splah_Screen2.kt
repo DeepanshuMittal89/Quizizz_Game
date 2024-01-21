@@ -13,7 +13,7 @@ class Splah_Screen2 : AppCompatActivity() {
 
             Handler().postDelayed(
                 {
-                    startActivity(Intent(this,PreDashboard1::class.java))
+                    startActivity(Intent(this,SignUp::class.java))
                     finish()
                 },5000
             )
